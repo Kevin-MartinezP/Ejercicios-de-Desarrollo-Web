@@ -1,0 +1,181 @@
+/* Body Estilo */
+*{
+    margin: 0px;
+    padding: 3px;
+}
+p{
+    color: white;
+    font-size:xx-large;
+}
+label{
+    font-size: larger;
+}
+#body{
+    background-color:#09090D;
+
+}
+
+/* Contenedor del cuerpo del documento */
+#body_container{
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 1550px;
+
+}
+
+/* Contenedor del header de la pagina */
+#header{
+    display: flex;
+    border-radius: 1.5em;
+    width: 1300px;
+    height: 500px;
+    border-top: 3px #3A2215 solid;
+}
+/*Contenedor del Header Imagen */
+#headerImg{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    float: left;
+    flex-direction: row-reverse;
+    
+}
+/* Imagen del header */
+#img_headerEdit{
+    width: 1000px;
+}
+/* Header Mensaje */
+#headerMsj{
+    display: flex;
+    float: right;
+    color: white;
+    width: max-content;
+    height: 500px;
+   flex-direction:column;
+   
+}
+/* Mensaje del header sobre InstaPet */
+.instapet_msj{
+    width:780px;
+    height: 200px;
+    text-align: center;
+    
+}
+
+/* Contenedor del cuerpo del formulario y imagenes */
+#body_form{
+    
+    width: 1300px;
+    height: 750px;
+    display: flex;
+}
+/* Contenedor del formulario */
+#form_container{
+    
+    height: 750px;
+    width: 500px;
+    background-color:#09090D ;
+
+}
+/* Contenedor de la informacion del formulario */
+#form_info{
+    
+    background-color: rgba(23, 20, 22, 5);
+    border-left: 10px;
+    border-top: 3px #3A2215 solid;
+    color: white;
+    width: 500px;
+    height: 750px;
+}
+
+/* Width para la clase INPUT */
+.input_width{
+    width: 200px;
+}
+/* Clase Buttons */
+.buttons{
+    width: 100px;
+}
+
+/* Contenedor de las imagenes de las mascotas */
+#gallery_container{
+height: 700px;
+width: max-content;
+padding-left:20px ;
+background-color: rgba(23, 20, 22, 5);
+border-top: 3px #3A2215 solid;
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+margin-top: 3px;
+
+}
+/* Contenedor del mensaje de la geleria */
+#gallery_msj{
+
+}
+/* contenedor de las imagenes */
+#gallery_img{
+
+}
+/* edicion para las imagenes de la galeria */
+.gallery_imgEdit{
+    width: 200px;
+    height: 200px;
+}
+
+/*Contenedor IFRAME*/
+#iframe_container{
+    
+    display: flex;
+    background-color: rgba(23, 20, 22, 5);
+    width: 750px;
+    height: 400px;
+
+}
+
+/*Contenedor para el mapa IFRAME*/
+#span_iframeMap{
+    border-right: 9px;
+    float: left;
+    width: 375px;
+    height: 400px;
+    background-color: rgba(23, 20, 22, 5);
+}
+
+/*Contenedor para el video de YOUTUBE*/
+#span_iframeYT{
+    border-left: 9px;
+    float: right;
+    width: 365px;
+    height: 400px;
+    background-color: rgba(23, 20, 22, 5);
+}
+
+.iframe_class{
+    width: 365px;
+    height: 390px;
+}
+
+/* Footer */
+#footer{
+display: block;
+float:left;
+
+}
+/* Contenedor de contactos */
+#contacts{
+
+}
+/* Contenedor de reedirecciones y imagenes  */
+#links_container{
+
+}
+.logos_img{
+    width: 100px;
+    height: 100px;
+}
+#coment{
+    width: 400px;
+}

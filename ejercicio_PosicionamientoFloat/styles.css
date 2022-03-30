@@ -1,0 +1,28 @@
+
+#contenenor{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#navbar{
+
+    background-color: #118AB2;
+
+}
+
+a{
+    margin-right: 10px;
+}
+
+#contenido{
+    float: left;
+    width: 70%;
+    background-color: #06D6A0;
+    height: 100vh;
+}
+
+#sidebar{
+    float: left;
+    width: 30%;
+    background-color: #EF476F;
+}

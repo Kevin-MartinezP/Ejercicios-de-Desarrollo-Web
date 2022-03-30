@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>EJERCICIO: COMPONENTES FORMULARIOS</title>
+</head>
+<body>
+
+    <div class="container">
+    
+        <form action="https://formspree.io/f/xoqrlbgq" method="POST">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombre:</label>
+                <input required name="nombreForm" placeholder="Ingrese su nombre" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Como aparece en tu documento.</div>
+              </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo Electronico:</label>
+                <input required name="correoForm" placeholder="Ingrese su correo electronico" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca compartiremos tu información con terceros.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
+                <input required name="contraseñaForm" placeholder="Ingrese su contraseña" type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input required name="condicionesForm" type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Acepto las bases y condiciones</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+   
+    </div>
+    
+</body>
+</html>

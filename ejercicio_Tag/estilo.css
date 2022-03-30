@@ -1,0 +1,9 @@
+#parrafos{
+    width: 900px;
+    height: 1200px;
+}
+
+#links{
+    display: flex;
+    flex-direction: column;
+}

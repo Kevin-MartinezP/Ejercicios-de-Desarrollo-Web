@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPet</title>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+    <link rel="shortcut icon" href="img/icons/instapet_icon.ico">
+</head>
+<body id="body">
+    <!--Contenedor del cuerpo del documento-->
+    <div id="body_container">
+        <!--Contenedor del header de la pagina-->
+        <div id="header">
+            <!--Contenedor de la imagen del header-->
+            <div id="headerImg">
+                <img id="img_headerEdit" src="https://www.hola.com/imagenes/estar-bien/20191125154289/perro-comunica-humanos-gt/0-749-846/perro-habla-t.jpg" alt="No puede mostrarse">
+            </div>
+            <!--Contenedor del mensaje de la pagina-->
+            <div id="headerMsj">
+                <div> 
+                    <h1 class="instapet_msj">INSTAPET</h1>
+                </div>
+                <div class="instapet_msj">
+                    <p> Comparte Fotos de tus mascotas con otros usuarios alrededor del mundo.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Final del contenedor Header-->
+            
+        <!--Contenedor del cuerpo del formulario y imagenes de mascotas-->
+        <div id="body_form">
+            <!--Contenedor de el formulario y envio de información-->
+            <div id="form_container">
+                <div id="form_info">
+                    <p>REGISTRA TU MASCOTA</p>
+                    <br>
+                    <form action="https://formspree.io/f/mqknbvjr" method="POST">
+                        <label>Nombre de la Mascota:
+                            <input class="input_width" type="text" name="petName" id="petName" placeholder="Ingresa el nombre de tu mascota" required>
+                        </label>
+                        <br><br>
+                        <label>Edad de la Mascota:&nbsp &nbsp &nbsp
+                            <input class="input_width"  type="number" name="petAge" id="petAge" placeholder="Ingresa la edad de tu mascota" required>
+                        </label>
+                        <br><br>
+                        <label>Correo electrónico:&nbsp &nbsp&nbsp&nbsp&nbsp
+                            <input class="input_width"  type="email" name="mail" id="mail" placeholder="Ingresa tu Correo Electronico" required>
+                        </label>
+                        <br><br>
+                        <label>Contraseña:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp
+                            <input class="input_width"  type="password" name="passWord" id="passWord" placeholder="Ingresa la contraseña" required>
+                        </label>
+                        <br><br>
+                        <label>Color de la Mascota:&nbsp&nbsp&nbsp
+                            <input type="color" name="petColor" id="petColor" required>
+                        </label>
+                        <br><br>
+                        <label>Macho:
+                            <input type="radio" name="petSexo" id="petSexo">
+                        </label>
+                        <label>Hembra:
+                            <input type="radio" name="petSexo" id="petSexo">
+                        </label>
+                        <br><br>
+                        <label>¿Que animal es tu mascota?
+                            <select  name="dropdown" id="dropdown" required>
+                                <option value="prim">Perro</option>
+                                <option value="sec">Gato</option>
+                                <option value="ter">Tigre</option>
+                                <option value="cuart">León</option>
+                                <option value="quint">Tortuga</option>
+                            </select>
+                        </label>
+                        <br><br>
+                        <label>Cuentamos más sobre tu mascota:
+                                <textarea name="coment" id="coment" cols="0" rows="10" placeholder="Puedes ingresar mas detalles sobre tu mascota">
+
+                                </textarea>
+                        </label>
+                        <br><br>
+                        <label>Acepto las bases y condiciones:
+                                <input type="checkbox" name="checkbox_conditions" id="checkbox_conditions" required>
+                        </label>
+                        <br><br>
+                        <input class="buttons" type="submit" value="Registrar">
+                    </form>
+                </div>
+            </div>
+            <!--Contenedor de las imagenes de las mascotas-->
+            <div id="gallery_container">
+                <div id="gallery_msj">
+                    <p>GALERÍA DE FOTOS SUBIDAS RECIENTEMENTE</p>
+                </div>
+                <div id="gallery_img">
+                    <img class="gallery_imgEdit" src="https://labyes.com/wp-content/uploads/2020/06/PROTECH_Banner_SitioWeb_Perro_-1-1-732x732.jpg" alt="">
+                    <img class="gallery_imgEdit" src="https://i.blogs.es/808765/dpoty-puppy-2nd--c--tracy-kirby-the-kennel-club-2/450_1000.jpg" alt="">
+                    <img class="gallery_imgEdit" src="https://columnadigital.com/wp-content/uploads/2021/12/No-te-pierdas-estas-fotos-de-perros-intentando-atrapar-premios.jpg" alt="">
+                </div>
+
+                 <!--Contenedor del IFRAME-->
+            <div id="iframe_container">
+                <span id="span_iframeMap">
+                    <iframe class="iframe_class" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1121.309272270902!2d-88.43557783239407!3d13.341828980557958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7b39a5c907a0c7%3A0xc1c0284f8a63763!2sCl%C3%ADnica%20Veterinaria%20La%20Granja!5e0!3m2!1ses-419!2ssv!4v1647056681878!5m2!1ses-419!2ssv" loading="lazy"></iframe>
+                </span>
+                <span class="iframe_class" id="span_iframeYT">
+                    <iframe class="iframe_class" src="https://www.youtube.com/embed/b314CFA3EaA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </span>
+            </div>
+
+            </div>
+
+           
+
+        </div>
+        <!--Final del contenedor del cuerpo del formulario y imagenes de mascotas-->
+
+        <footer id="footer">
+            <div id="contacts">
+                <div>
+                    <p>CONTACTOS</p>
+                </div>
+                <div id="links_container">
+                    <a href="facebook.com"><img class="logos_img" src="https://icones.pro/wp-content/uploads/2021/02/facebook-icones.png" alt=""></a>
+                    <a href="twitter.com"><img class="logos_img" src="https://cdn-icons-png.flaticon.com/512/107/107195.png" alt=""></a>
+                    <a href="instagram.com"><img class="logos_img" src="https://img2.freepng.es/20180624/kek/kisspng-computer-icons-logo-instagram-blog-akita-5b2ffdee2b6179.0746309015298718541777.jpg" alt=""></a>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--Final del contenedor del cuerpo del documento-->
+</body>
+</html>
